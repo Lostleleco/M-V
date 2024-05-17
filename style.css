@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar>.container-fluid,
+.bg-body-tertiary {
+    background-color: #6e1013;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: -4px;
+    font-size: 30px;
+
+}
+
+.navbar-brand {
+    margin-right: auto; /* Move o título para a esquerda */
+    pointer-events: none; /* Remove a interatividade do título */
+}
+.navbar-nav {
+    margin-left: auto; /* Move os links para a direita */
+    gap: 20px; /* Adiciona espaço entre os links */
+}
+ 
+
+
+h1 {
+    background-color: #6e1013;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: -4px;
+    font-size: 60px;
+    padding: 0px;
+}
+
+.display-4 {
+    color: #d6ac6b;
+    font-size: larger;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show:hover {
+    color: #d6ac6b;
+}
+
+#carouselExampleAutoplaying .carousel-inner img {
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo img {
+    height: 10px auto;
+}
+
+.h1, .fale h1 {
+    background-color: #6e1013;
+    color: #d6ac6b;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: 2px;
+    font-size: 40px;
+    justify-content: center;
+}
+.parte3
+    {
+        color: #d6ac6b;
+       
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+    }
+.parte3{
+    background-color: #6e1013;
+    color:rgb(245, 200, 200);
+  
+    font-weight: 900;
+    font-style: bold;
+    margin-top: 16px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+ p{text-align: center;
+
+}
+
+.card{
+    background-color:#ffffe0 ;
+}
+
+body{
+    background-color:#FAF3E0 ;
+}
+
+.fale label{
+    display: block;
+    padding: 10px;
+    
+}
+textarea{
+    width: 400px;
+    height: 200px;
+}
+ #email{
+    width: 400px; 
+    
+}
+footer{
+    background-color: #6e1013;
+    color: #d6ac6b;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    margin-top: 2px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+footer span{
+    color: #FAF3E0;
+}
