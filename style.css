@@ -125,6 +125,9 @@ textarea{
     width: 400px; 
     
 }
+#enviar{
+    display:block;
+}
 footer{
     background-color: #6e1013;
     color: #d6ac6b;
